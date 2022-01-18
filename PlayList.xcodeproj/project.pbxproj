@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		3B271E5827922C5E00BF7C4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B271E5727922C5E00BF7C4C /* AppDelegate.swift */; };
 		3B271E5A27922C5E00BF7C4C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B271E5927922C5E00BF7C4C /* SceneDelegate.swift */; };
-		3B271E5C27922C5E00BF7C4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B271E5B27922C5E00BF7C4C /* ViewController.swift */; };
 		3B271E5F27922C5E00BF7C4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B271E5D27922C5E00BF7C4C /* Main.storyboard */; };
 		3B271E6127922C6500BF7C4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B271E6027922C6500BF7C4C /* Assets.xcassets */; };
 		3B271E6427922C6500BF7C4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B271E6227922C6500BF7C4C /* LaunchScreen.storyboard */; };
+		3B271E702792333000BF7C4C /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B271E6F2792333000BF7C4C /* Song.swift */; };
+		3B271E722792386000BF7C4C /* SongController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B271E712792386000BF7C4C /* SongController.swift */; };
+		3B271E7427923ADD00BF7C4C /* SongTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B271E7327923ADD00BF7C4C /* SongTableViewController.swift */; };
+		3B8EDFE327933FE500A698E1 /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8EDFE227933FE500A698E1 /* Playlist.swift */; };
+		3B8EDFE5279340E000A698E1 /* PlaylistController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8EDFE4279340E000A698E1 /* PlaylistController.swift */; };
+		3B8EDFE727934B8F00A698E1 /* PlaylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8EDFE627934B8F00A698E1 /* PlaylistViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3B271E5427922C5E00BF7C4C /* PlayList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B271E5727922C5E00BF7C4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B271E5927922C5E00BF7C4C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3B271E5B27922C5E00BF7C4C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3B271E5E27922C5E00BF7C4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3B271E6027922C6500BF7C4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B271E6327922C6500BF7C4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B271E6527922C6500BF7C4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B271E6F2792333000BF7C4C /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		3B271E712792386000BF7C4C /* SongController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongController.swift; sourceTree = "<group>"; };
+		3B271E7327923ADD00BF7C4C /* SongTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongTableViewController.swift; sourceTree = "<group>"; };
+		3B8EDFE227933FE500A698E1 /* Playlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playlist.swift; sourceTree = "<group>"; };
+		3B8EDFE4279340E000A698E1 /* PlaylistController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistController.swift; sourceTree = "<group>"; };
+		3B8EDFE627934B8F00A698E1 /* PlaylistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +66,60 @@
 		3B271E5627922C5E00BF7C4C /* PlayList */ = {
 			isa = PBXGroup;
 			children = (
-				3B271E5727922C5E00BF7C4C /* AppDelegate.swift */,
-				3B271E5927922C5E00BF7C4C /* SceneDelegate.swift */,
-				3B271E5B27922C5E00BF7C4C /* ViewController.swift */,
-				3B271E5D27922C5E00BF7C4C /* Main.storyboard */,
-				3B271E6027922C6500BF7C4C /* Assets.xcassets */,
-				3B271E6227922C6500BF7C4C /* LaunchScreen.storyboard */,
-				3B271E6527922C6500BF7C4C /* Info.plist */,
+				3B271E6E2792330300BF7C4C /* Controller */,
+				3B271E6D279232FB00BF7C4C /* Model */,
+				3B271E6C27922CF900BF7C4C /* Resources */,
+				3B271E6B27922CDE00BF7C4C /* View */,
+				3B271E7527923AE900BF7C4C /* ViewController */,
 			);
 			path = PlayList;
+			sourceTree = "<group>";
+		};
+		3B271E6B27922CDE00BF7C4C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3B271E5D27922C5E00BF7C4C /* Main.storyboard */,
+				3B271E6227922C6500BF7C4C /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3B271E6C27922CF900BF7C4C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3B271E5727922C5E00BF7C4C /* AppDelegate.swift */,
+				3B271E5927922C5E00BF7C4C /* SceneDelegate.swift */,
+				3B271E6027922C6500BF7C4C /* Assets.xcassets */,
+				3B271E6527922C6500BF7C4C /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3B271E6D279232FB00BF7C4C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3B271E6F2792333000BF7C4C /* Song.swift */,
+				3B8EDFE227933FE500A698E1 /* Playlist.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3B271E6E2792330300BF7C4C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3B271E712792386000BF7C4C /* SongController.swift */,
+				3B8EDFE4279340E000A698E1 /* PlaylistController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3B271E7527923AE900BF7C4C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3B271E7327923ADD00BF7C4C /* SongTableViewController.swift */,
+				3B8EDFE627934B8F00A698E1 /* PlaylistViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +193,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B271E5C27922C5E00BF7C4C /* ViewController.swift in Sources */,
+				3B8EDFE727934B8F00A698E1 /* PlaylistViewController.swift in Sources */,
+				3B271E7427923ADD00BF7C4C /* SongTableViewController.swift in Sources */,
+				3B271E702792333000BF7C4C /* Song.swift in Sources */,
 				3B271E5827922C5E00BF7C4C /* AppDelegate.swift in Sources */,
+				3B271E722792386000BF7C4C /* SongController.swift in Sources */,
 				3B271E5A27922C5E00BF7C4C /* SceneDelegate.swift in Sources */,
+				3B8EDFE327933FE500A698E1 /* Playlist.swift in Sources */,
+				3B8EDFE5279340E000A698E1 /* PlaylistController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +351,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = G3VP62JDQQ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PlayList/Info.plist;
+				INFOPLIST_FILE = PlayList/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -319,7 +379,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = G3VP62JDQQ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PlayList/Info.plist;
+				INFOPLIST_FILE = PlayList/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
